@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="home">
+    <div class="header">
+        <a href="#home"><p>Home</p></a> 
+        <a href="#about"><p>Education</p></a> 
+        <a href="#skills"><p>Skills</p></a> 
+        <a href="#project"><p>Projects</p></a> 
+        <a href="#certificate"><p>Certifications</p></a>  
+        <a href="#contact"><p>Contact</p></a> 
+    </div>
+    <div class="logo">
+        <img src="logo.jpg" width="150px" height="110px">
+    </div>
+    <div class="pos">
+        <!-- <img src="shape.png" width="100px" height="100px" class="shape"> -->
+        <img src="ker.jpg" class="me">
+    </div>
+    <div class="main">
+        <h1>Hi, I'm  Satya Sri <span>koppisetti </span></h1>
+        <p>This is my offical portfolio website to showcase all my information.</p>
+        <a href="FinalResume.pdf" download="FinalResume.pdf"><button><p>Download Resume</p></button></a>
+    </div>
+    
+    </section>
+    <section id="about">
+    <div>
+        <div class="edut">
+            <div class="sub1">
+                <br>
+            <h1>ABOUT<span>ME</span></h1>
+        </div>
+            <p class="p1">I'm a final year student pursuing my BTech in the department of Computer Science & Engineering at Sri Vasavi Engineering College, Tadepalligudem.
+                My objective is to obtain a challenging position as a software developer where I can utilize my skills to build innovative software solutions.
+            </p>
+            
+        </div>
+        <div class="stud">
+            <h3>Sri vasavi engineering college,<span>Tadepalligudem</span></h3>
+            <p>bachelor of Technology-Computer science and Engineering</p>
+            <p>8.41</p>
+            <h3>Sasi Junior College <span>Vellivennu </span></h3>
+            <p>Inter</p>
+            <p>95.30%</p>
+            <h3>Sasi E.M High school,<span>Vellivennu</span></h3>
+            <p>10th</p>
+            <p>10.00</p>   
+        </div>
+        <div class="picture">
+            
+            <img src="ker1.jpeg" >
+        </div>
+    </div>
+    </section>
+
+    <section id="skills" >
+    <div class="sub1">
+        <h1>MY<span>SKILLS</span></h1>
+    </div>
+        <ul>
+            <li>
+                <span class="skill-name">Java</span>
+                <div class="skill-bar">
+                    <div class="skill-level skill-level-70"></div>
+                </div>
+            </li>
+            <li>
+                <span class="skill-name">Cpp</span>
+                <div class="skill-bar">
+                    <div class="skill-level skill-level-50"></div>
+                </div>
+            </li>
+            <li>
+                <span class="skill-name">C</span>
+                <div class="skill-bar">
+                    <div class="skill-level skill-level-20"></div>
+                </div>
+            </li>
+            <li>
+                <span class="skill-name">Python</span>
+                <div class="skill-bar">
+                    <div class="skill-level skill-level-50"></div>
+                </div>
+            </li>
+            <li>
+                <span class="skill-name">Html</span>
+                <div class="skill-bar">
+                    <div class="skill-level skill-level-70"></div>
+                </div>
+            </li>
+            <li>
+                <span class="skill-name">Css</span>
+                <div class="skill-bar">
+                    <div class="skill-level skill-level-20"></div>
+                </div>
+            </li>
+        </ul>
+
+</section>
+
+
+    <section id="project">
+        <div class="sub">
+            <h1>MY<span>PROJECTS</span></h1>
+        </div>
+        <div class="pp">
+        <div>
+            <img src="shop.jpg" width="200px" height="120px">
+            <h1>Website for shopping</h1>
+            <a ><button>Preview</button></a>
+        </div> 
+        </div>
+    </section>
+
+    <section id="certificate">
+                <div class="sub">
+        <h1>MY<span>CERTIFICATIONS</span></h1>
+    </div>
+    <div class="pp">
+            <div >
+                <br><br>
+                <img class="thumbnail" src="c1.png" width="200px" height="120px" class="c1">
+                <h1>Introduction to cybersceurity</h1>
+            </div>
+            <div>
+                <img  class="thumbnail1" src="c2.png" width="200px" height="120px" class="c2">
+                <h1>Introduction to HTML</h1>
+            </div>
+            <div>
+                <img  class="thumbnail2" src="c3.png" width="200px" height="120px" class="c3">
+                <h1>WORKSHOP on SDG development</h1>
+            </div>
+            <div class="enlarged-image">
+                <img src="c1.png" >
+              </div>
+              <div class="enlarged-image1">
+                <img src="c2.png" >
+              </div>
+              <div class="enlarged-image2">
+                <img src="c3.png" >
+              </div>
+    </div>
+    </section>
+    <script>
+        // JavaScript to show/hide the enlarged image on click
+        const thumbnail = document.querySelector('.thumbnail');
+        const enlargedImage = document.querySelector('.enlarged-image');
+        
+        thumbnail.addEventListener('click', function() {
+          enlargedImage.style.display = 'block';
+        });
+        
+        enlargedImage.addEventListener('click', function() {
+          enlargedImage.style.display = 'none';
+        });
+      </script>
+      <script>
+        // JavaScript to show/hide the enlarged image on click
+        const thumbnail1 = document.querySelector('.thumbnail1');
+        const enlargedImage1 = document.querySelector('.enlarged-image1');
+        
+        thumbnail1.addEventListener('click', function() {
+          enlargedImage1.style.display = 'block';
+        });
+        
+        enlargedImage1.addEventListener('click', function() {
+          enlargedImage1.style.display = 'none';
+        });
+      </script>
+      <script>
+        // JavaScript to show/hide the enlarged image on click
+        const thumbnail2 = document.querySelector('.thumbnail2');
+        const enlargedImage2 = document.querySelector('.enlarged-image2');
+        
+        thumbnail2.addEventListener('click', function() {
+          enlargedImage2.style.display = 'block';
+        });
+        
+        enlargedImage2.addEventListener('click', function() {
+          enlargedImage2.style.display = 'none';
+        });
+      </script>
+
+
+    <section id="contact">
+        </div>
+         <div class="contact-us">
+            
+            <div class="sub1">
+                <h1>CONTACT<span>ME</span></h1>
+            </div>
+            <ul class="social-icons">
+              <li><a href="mailto:satyasri632@gmail.com"><img src="gmail.png" height="35px" width="35px"></a></li>
+            </ul>
+          </div>
+    </section>
+
+</body>
+</html>
